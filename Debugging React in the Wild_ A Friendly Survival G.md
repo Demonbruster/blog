@@ -6,7 +6,7 @@ Welcome to the untamed wilderness of React production apps! Your app is out ther
 
 ---
 
-## 🪵 Chapter 1: Leaving Breadcrumbs - Smart Logging for Survival
+## 😎 Chapter 1: Leaving Breadcrumbs - Smart Logging for Survival
 
 Logs are your app’s footprints in the wild. Without them, you’re chasing shadows. But endless `console.log` spam is like shouting in the jungle - noisy and unhelpful.
 
