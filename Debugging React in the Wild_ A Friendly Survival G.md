@@ -1,5 +1,3 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
-
 # Debugging React in the Wild: A Friendly Survival Guide
 
 *With React Scan, Sentry, Profiler, and Smart Logging*
@@ -8,7 +6,7 @@ Welcome to the untamed wilderness of React production apps! Your app is out ther
 
 ---
 
-## 🪵 Chapter 1: Leaving Breadcrumbs - Smart Logging for Survival
+## 😎 Chapter 1: Leaving Breadcrumbs - Smart Logging for Survival
 
 Logs are your app’s footprints in the wild. Without them, you’re chasing shadows. But endless `console.log` spam is like shouting in the jungle - noisy and unhelpful.
 
