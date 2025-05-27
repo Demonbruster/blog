@@ -1,22 +1,4 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
-
-# Write a blog post in a friendly, storytelling tone that introduces developers to vLLM (virtualized large language model inference engine). Begin with a relatable story—like a developer at a startup struggling with slow LLM inference and skyrocketing cloud bills. Use this narrative to naturally introduce vLLM as the turning point or “hidden hero.”
-
-Explain what vLLM is using clear metaphors and analogies (e.g., hotels for memory allocation or paging systems in operating systems) to demystify technical concepts like PagedAttention and KV cache management.
-
-Break down the real-world benefits of vLLM (high throughput, low latency, memory efficiency) with bulleted points and light narrative transitions.
-
-Include clear, practical examples:
-
-How to run vLLM locally on a laptop or single-GPU machine (include code snippets and curl or Python requests)
-
-How to scale vLLM in production using REST APIs, Kubernetes, and handling concurrent users
-
-Add at least one real-world use case, such as AI customer support, SaaS LLM APIs, or AI-powered summarization tools.
-
-Conclude the post with a hopeful, empowering message for developers of all sizes—startups, solo builders, enterprise teams—and add a clear call to action with a link to the official vLLM documentation.
-
-**vLLM: The Hidden Hero Rescuing Developers from Slow LLM Inference and Skyrocketing Cloud Bills**
+# vLLM: The Hidden Hero Rescuing Developers from Slow LLM Inference and Skyrocketing Cloud Bills
 
 Imagine you’re a developer at a scrappy startup, tasked with launching the company’s first AI-powered customer support chatbot. At first, things go smoothly—your prototype works, the team is excited, and you’re basking in the glow of early success. But as soon as you open the chatbot to real users, the cracks start to show. Responses slow to a crawl, the GPU memory fills up, and your cloud bill begins to resemble a phone number. Your boss is asking why the chatbot can’t handle more than a handful of users at once, and you’re left scrambling for answers.
 
@@ -67,7 +49,7 @@ curl http://localhost:8000/v1/completions \
   -H "Content-Type: application/json" \
   -d '{
     "model": "Qwen/Qwen2.5-1.5B-Instruct",
-    "prompt": "San Francisco is a",
+    "prompt": "what is vLLM?",
     "max_tokens": 7,
     "temperature": 0
   }'
@@ -80,7 +62,7 @@ from openai import OpenAI
 client = OpenAI(base_url="http://localhost:8000/v1", api_key="EMPTY")
 completion = client.completions.create(
   model="Qwen/Qwen2.5-1.5B-Instruct",
-  prompt="San Francisco is a"
+  prompt="what is vLLM?"
 )
 print(completion)
 ```
@@ -110,8 +92,6 @@ So the next time you’re wrestling with slow inference or runaway cloud bills, 
 **Ready to try vLLM for yourself? Dive into the official documentation and join the community of developers making AI more accessible for everyone:**
 
 [vLLM Official Documentation](https://docs.vllm.ai)
-
-<div style="text-align: center">⁂</div>
 
 [^1]: https://www.hopsworks.ai/dictionary/vllm
 
